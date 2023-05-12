@@ -8,6 +8,7 @@ img {
   width: 150px;
 }
 body {
+background-image: url(background);
 background: #CCCCCC;
 }
 
