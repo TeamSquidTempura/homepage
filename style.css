@@ -3,13 +3,25 @@ background: gray;
 }
 img {
   border: 1px solid #ddd;
-  border-radius: 4px;
+  border-radius: 20px;
   padding: 5px;
-  width: 150px;
+  width: 1200px;
 }
 body {
-background-image: url(background);
+background-image: url("https://github.com/squidmaster1231/homepage/blob/main/background.png");
 background: #CCCCCC;
 }
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+}
 
+.centered {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
