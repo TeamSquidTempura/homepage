@@ -14,11 +14,11 @@ background: #CCCCCC;
   position: relative;
   text-align: center;
   color: rgba( 255, 255, 255, 0.5);
-  font-size: 90px;
+  font-size: 100px;
   font-weight:bold;
 }
 
-.centered {
+.center-text {
   position: absolute;
   top: 65%;
   left: 50%;
