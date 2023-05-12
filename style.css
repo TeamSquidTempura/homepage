@@ -1,0 +1,16 @@
+h1{
+image:
+background-image: url("title.png");
+background-color: #CCCCCC;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+body {
+background: #CCCCCC;
+}
+
+
