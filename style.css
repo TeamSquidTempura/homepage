@@ -1,7 +1,5 @@
 h1{
-image:
-background-image: url("title.png");
-background-color: #CCCCCC;
+background: gray;
 }
 img {
   border: 1px solid #ddd;
