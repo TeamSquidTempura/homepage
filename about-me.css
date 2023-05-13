@@ -1,6 +1,5 @@
 h1{
-background: gray;
-
+background: rgba(100, 100, 100, 0.5);
 }
 .container {
   position: relative;
