@@ -1,6 +1,9 @@
 .bottom{
 background: rgba(100, 100, 100, 0.5);
 }
+.title{
+background: rgba(100, 100, 100, 0.5);
+}
 .container {
   position: relative;
   text-align: center;
