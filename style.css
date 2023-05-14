@@ -1,6 +1,9 @@
 .bottom{
 background: rgba(100, 100, 100, 0.5);
 }
+.title{
+background: rgba(100, 100, 100, 0.5);
+}
 img {
   border: 1px solid #ddd;
   border-radius: 50px;
