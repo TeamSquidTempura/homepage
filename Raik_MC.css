@@ -18,6 +18,7 @@ transform: translate(0%,-50%);
 }
 .notify-image{
 transform: translate(20%,20%);
+width: 1200px;
 }
 .container {
   position: relative;
