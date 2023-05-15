@@ -12,12 +12,13 @@ color: white;
 .notify{
 background: rgba(100, 100, 100, 0.5);
 transform: translate(0%, -10%);
+color: white;
 }
 .notify-twitter{
-transform: translate(0%,-60%);
+transform: translate(0%,-80%);
 }
 .notify-image{
-transform: translate(20%,30%);
+transform: translate(20%,10%);
 }
 .container {
   position: relative;
