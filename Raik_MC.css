@@ -14,11 +14,26 @@ background: rgba(100, 100, 100, 0.5);
 color: white;
 }
 .notify-twitter{
-transform: translate(0%,-50%);
+transform: translate(0%,-325%);
+height: 200px;
 }
-.notify-image{
-transform: translate(20%,20%);
-width: 1200px;
+.notify-image1{
+transform: translate(80%,20%);
+width: 600px;
+}
+.notify-image2{
+transform: translate(90%,-78%);
+width: 600px;
+}
+.notify-image3{
+transform: translate(100%,-174%);
+width: 600px;
+}
+.notify-text{
+position: absolute;
+  top: 200%;
+  left: 45%;
+  transform: translate(-50%, -50%);
 }
 .container {
   position: relative;
