@@ -14,10 +14,10 @@ background: rgba(100, 100, 100, 0.5);
 color: white;
 }
 .notify-twitter{
-transform: translate(0%,-80%);
+transform: translate(0%,-50%);
 }
 .notify-image{
-transform: translate(20%,10%);
+transform: translate(20%,20%);
 }
 .container {
   position: relative;
