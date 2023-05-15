@@ -12,6 +12,7 @@ color: white;
 .notify{
 background: rgba(100, 100, 100, 0.5);
 color: white;
+border-radius: 50px;
 }
 .notify-twitter{
 transform: translate(0%,-325%);
@@ -37,10 +38,12 @@ position: absolute;
 }
 .container {
   position: relative;
-  text-align: center;
-  color: rgba( 255, 255, 255, 0.5);
-  font-size: 100px;
-  font-weight:bold;
+    text-align: center;
+    color: rgba( 255, 255, 255, 0.5);
+    font-size: 100px;
+    font-weight:bold;
+    border-radius: 50px;
+    padding: 5px;
 }
 .center-text {
   position: absolute;
