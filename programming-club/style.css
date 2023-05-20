@@ -1,3 +1,30 @@
 .title{
 background: rgba(100, 100, 100, 0.5);
+color: aqua;
+text-align:center;
+}
+.summary{
+background: rgba(14,100,255,0.5);
+border-radius: 20px;
+color: white;
+text-align:center;
+height: 200px;
+}
+.Where{
+background: rgba(14,100,255,0.5);
+border-radius: 20px;
+color: white;
+text-align:center;
+height: 150px;
+}
+.notifications{
+background: rgba(14,100,255,0.5);
+border-radius: 20px;
+color: white;
+text-align:center;
+height: 400px;
+}
+.Image{
+height:150;
+width:500px;
 }
