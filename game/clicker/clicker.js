@@ -7,6 +7,9 @@ function clicker(){
         console.log(content[1]);
         click_count = Number(content[1]) + 1
         document.cookie = "click_count="+click_count;
+        if (click_count === NaN){
+            click_count = 0
+        }
         document.getElementById('count').innerHTML = click_count ;
         if (click_count === 100) {
             alert("congratulation you clicked 100 times")
