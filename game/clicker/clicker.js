@@ -29,3 +29,16 @@ function clicker(){
 
     })
 }
+function reset(){
+    var reset = prompt("Are you sure? Please confirm. Enter RESET to confirm")
+    if (reset === "reset"){
+        document.cookie = "click_count=0"
+        alert("Your data was removed successfully")
+    }else if (reset === "RESET"){
+        document.cookie = "click_count=0"
+        alert("Your data was removed successfully")
+    }else{
+        alert("Please enter RESET or reset for remove the data.")
+    }
+
+}
