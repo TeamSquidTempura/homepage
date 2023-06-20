@@ -15,13 +15,12 @@
 <link rel="stylesheet" href="style.css">
 <style>
 body {
-  background-image: url('/resources/background.png');
+  background-image: url(/resources/background.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
 }
 </style>
-
 <div class="title">
     <h1 style="color:aqua;">Team Squid Tempura Home Page</h1>
 </div>
@@ -41,10 +40,10 @@ body {
         </p><div class="center-text">Visit github</div>
     </div>
 </a>
-<a href="http://mc.squidtempura.f5.si/">
+<a href="https://squidtempura.f5.si/game">
     <div class="container">
         <p>
-            <img src="/resources/mc.png" alt="squid craft" style="width:99%;">
+            <img src="/resources/clicker.png" alt="squid tempura games" style="width:99%;">
 
         </p><div class="center-text">Play Squid craft</div>
     </div>
@@ -57,10 +56,28 @@ body {
         </p><div class="center-text">Visit curseforge</div>
     </div>
 </a>
+
 <div class="bottom" style="text-align:center;">
     <p>
     <h1>
         <a href="https://teamsquidtempura.github.io/homepage/" style="color:aqua;">Return to home page</a>
+    <input type="button" value="Enter the password" onclick="gate();">
+    <script type="text/javascript">
+function gate(){
+   // get user input
+   var UserInput = prompt("Enter the password:","");
+   // check the input index
+   if( /\W+/g.test(UserInput) ) {
+      // show the error if it wasn't the alphabet or number
+      alert("please enter the alphabet or the numbers");
+   }
+   // check cancel
+   else if( UserInput != null ) {
+      // go to the html file
+      location.href = UserInput + ".html";
+   }
+}
+</script>
     </h1>
 </div>
 </html>
